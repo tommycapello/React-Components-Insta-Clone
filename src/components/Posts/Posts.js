@@ -13,9 +13,9 @@ const Posts = (props) => {
       {posts.map(post => {
         return (
           <Post
-            post = {post}
+            posts = {post}
             likePost = {likePost}
-            key = {post.id} // Each child in a list should have a unique "key" prop
+            id = {post.id} // Each child in a list should have a unique "key" prop
           />
         )
       })}
